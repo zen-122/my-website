@@ -3,48 +3,127 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ASH blog Website</title>
+    <title>ASH website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Header with Navigation -->
     <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <div class="logo">
+                <h1> Welcome to my website </h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <section id="home">
-        <h1>Welcome to My Website</h1>
-        <p>Hi! I'm ASH . Welcome to my website.</p>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Professional Web Developer</h2>
+                <p>Building modern, responsive websites and applications to bring your ideas to life.</p>
+                <a href="#about" class="cta-button">Learn More</a>
+            </div>
+        </div>
     </section>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I'm a web developer, passionate about building great websites and learning new technologies.</p>
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I'm a passionate web developer with over 5 years of experience in creating beautiful, functional websites. I specialize in front-end development, UX/UI design, and full-stack applications. My goal is to help businesses achieve their digital objectives through custom web solutions.</p>
+        </div>
     </section>
 
-    <section id="portfolio">
-        <h2>Portfolio</h2>
-        <p>Here are some of the projects I've worked on:</p>
-        <ul>
-            <li><a href="#">Project 1</a></li>
-            <li><a href="#">Project 2</a></li>
-            <li><a href="#">Project 3</a></li>
-        </ul>
+    <!-- Services Section -->
+    <section id="services" class="section">
+        <div class="container">
+            <h2>My Services</h2>
+            <div class="services-grid">
+                <div class="service-item">
+                    <h3>Web Development</h3>
+                    <p>I build custom websites and web applications that are responsive, fast, and scalable.</p>
+                </div>
+                <div class="service-item">
+                    <h3>UX/UI Design</h3>
+                    <p>Creating user-friendly designs to ensure a seamless experience across devices.</p>
+                </div>
+                <div class="service-item">
+                    <h3>SEO Optimization</h3>
+                    <p>Helping you rank higher in search engines with optimization strategies tailored to your site.</p>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>You can reach me at: <a href="mail:to youremail@example.com">asywork112@gmail.com</a></p>
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="https://via.placeholder.com/300x200" alt="Project 1">
+                    <h3>Project 1</h3>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://via.placeholder.com/300x200" alt="Project 2">
+                    <h3>Project 2</h3>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://via.placeholder.com/300x200" alt="Project 3">
+                    <h3>Project 3</h3>
+                </div>
+            </div>
+        </div>
     </section>
 
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="section">
+        <div class="container">
+            <h2>Client Testimonials</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial-item">
+                    <p>"The best web developer I’ve worked with. The project was delivered on time, and the results exceeded my expectations."</p>
+                    <span>- Client 1</span>
+                </div>
+                <div class="testimonial-item">
+                    <p>"Incredible work! I’ve seen a major improvement in my website’s performance and user experience."</p>
+                    <span>- Client 2</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>If you'd like to discuss a project or need more information, feel free to reach out!</p>
+            <form action="#" method="POST" class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit" class="cta-button">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
     <footer>
-        <p>© 2025.All rights reserved.</p>
+        <div class="container">
+            <p>&copy; 2025 zen | All Rights Reserved</p>
+        </div>
     </footer>
 
     <script src="script.js"></script>
