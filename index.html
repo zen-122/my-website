@@ -1,170 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head> 
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Ash blogspots </title>
-    <style> 
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            line-height: 1.6;
-            color: #333;
-        }
-        header {
-            background: #0073e6;
-            color: #fff;
-            padding: 1rem 0;
-            text-align: center;
-        }
-        nav {
-            display: flex;
-            justify-content: center;
-            background: #f4f4f4;
-            padding: 0.5rem;
-        }
-        nav a {
-            margin: 0 1rem;
-            text-decoration: none;
-            color: #333;
-        }
-        nav a:hover {
-            color: #0073e6;
-        }
-        .container {
-            padding: 2rem;
-            max-width: 1100px;
-            margin: auto;
-        }
-        footer {
-            text-align: center;
-            padding: 1rem;
-            background: #f4f4f4;
-            margin-top: 2rem;
-        }
-        .section {
-            margin-bottom: 2rem;
-        }
-        .btn {
-            display: inline-block;
-            padding: 0.5rem 1rem;
-            background: #0073e6;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            margin-top: 1rem;
-        }
-        .btn:hover {
-            background: #005bb5;
-        }
-    </style>
+    <title>ASH blog Website</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>   HELLO THERE...Welcome to My Website.. </h1>
-        <p> What can i do to help you?</p>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
-    <nav>
-        <a href="#about">About Me</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#contact">Contact</a>
-    </nav>
-    <div class="container">
-        <section id="about" class="section">
-            <h2>About Me</h2>
-            <p>Hello im Ash im created this website , im experience in using capcut,microsoft word, canva and power point and more , feel free to chat me for bussiness matter.</p>
-        </section>
-        <section id="portfolio" class="section">
-            <h2>Portfolio</h2>
-            <p>  .</p>
-            <a href="#" class="btn">View More Projects</a><nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="#portfolio">Portfolio</a>
-    <a href="#contact">Contact</a>
-</nav>
 
-        </section>
-        <section id="contact" class="section">
-            <h2>Contact</h2>
-            <p>You reach me here by contact me at asywork112@gmail.com ,or  https://www.tiktok.com/@zxuess2?_t=ZS-8tCBs8gFFhw&_r=1 </p>
-            <a href="mailto:asywork112@gmail.com" class="btn">Email Me</a>
-        </section>
-    </div>
+    <section id="home">
+        <h1>Welcome to My Website</h1>
+        <p>Hi! I'm ASH . Welcome to my website.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I'm a web developer, passionate about building great websites and learning new technologies.</p>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <p>Here are some of the projects I've worked on:</p>
+        <ul>
+            <li><a href="#">Project 1</a></li>
+            <li><a href="#">Project 2</a></li>
+            <li><a href="#">Project 3</a></li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>You can reach me at: <a href="mail:to youremail@example.com">asywork112@gmail.com</a></p>
+    </section>
+
     <footer>
-        <p>&copy; 2025 My Personal Website. All rights reserved. No copyright preserved.</p>
+        <p>© 2025.All rights reserved.</p>
     </footer>
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Navigation Bar</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-    }
 
-    .navbar {
-      display: flex;
-      background-color: #333;
-      padding: 10px 20px;
-    }
-
-    .navbar a {
-      color: white;
-      text-decoration: none;
-      padding: 10px 15px;
-    }
-
-    .navbar a:hover {
-      background-color: #575757;
-      border-radius: 5px;
-    }
-
-    .navbar .logo {
-      font-weight: bold;
-      font-size: 20px;
-    }
-
-    .navbar .menu {
-      margin-left: auto;
-    }
-  </style>
-</head>
-<body>
-  <div class="navbar">
-    <div class="logo">MySite</div>
-    <div class="menu">
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#services">Services</a>
-      <a href="#contact">Contact</a>
-    </div>
-  </div>
-
-  <div id="home">
-    <h1>Welcome to MySite</h1>
-    <p>This is the home section.</p>
-  </div>
-
-  <div id="about">
-    <h2>About Us</h2>
-    <p>This is the about section.</p>
-  </div>
-
-  <div id="services">
-    <h2>Our Services</h2>
-    <p>This is the services section.</p>
-  </div>
-
-  <div id="contact">
-    <h2>Contact Us</h2>
-    <p>This is the contact section.</p>
-  </div>
+    <script src="script.js"></script>
 </body>
 </html>
